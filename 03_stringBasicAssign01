@@ -1,0 +1,21 @@
+console.log(`--------------------------Step 1------------------------------`);
+function stringBasics() {
+
+  console.log('My dream company is "TCS"');
+
+  console.log(`--------------------------Step 2------------------------------`);
+
+  var hobby1 = "Dancing";
+  var hobby2 = "Cooking";
+  var hobby3 = " Listening Music";
+
+  
+  console.log(`My Hobbies are: ${hobby1}, ${hobby2}, ${hobby3}`);
+
+  console.log(`--------------------------Step 3------------------------------`);
+
+  var totalCharacters = hobby1.length + hobby2.length + hobby3.length;
+  console.log(`Total characters in hobbies: ${totalCharacters}`);
+}
+
+stringBasics();
